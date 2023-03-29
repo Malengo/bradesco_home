@@ -1,0 +1,16 @@
+<svg id="Bloqueado" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_4363" data-name="Retângulo 4363" width="24" height="24" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_37" data-name="Grupo de máscara 37" clip-path="url(#clip-path)">
+    <g id="Grupo_26480" data-name="Grupo 26480" transform="translate(-201.65 -275.507)">
+      <g id="Grupo_10611" data-name="Grupo 10611" transform="translate(206.95 279.019)">
+        <path id="Stroke_1936" data-name="Stroke 1936" d="M-4024.36,2261.155h-2.658c-.37,0-.669-.476-.669-1.063h0v-8.505c0-.587.3-1.063.669-1.063h12.062c.369,0,.669.476.669,1.063v8.505c0,.586-.3,1.062-.669,1.063h-6.743" transform="translate(4027.688 -2244.162)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Stroke_1938" data-name="Stroke 1938" d="M-4006.518,2188.261v-4.78a1.5,1.5,0,0,0-1.492-1.51h-4.475a1.5,1.5,0,0,0-1.492,1.51v4.78" transform="translate(4016.865 -2181.972)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <path id="Caminho_10283" data-name="Caminho 10283" d="M-3976.014,2271.148h0l-.078,1.839a.625.625,0,0,1-.575.586.625.625,0,0,1-.587-.574l-.018-1.743-.1-.1a.943.943,0,0,1-.4-.867,1.065,1.065,0,0,1,1.055-1.076,1.065,1.065,0,0,1,1.075,1.054A.943.943,0,0,1-3976.014,2271.148Z" transform="translate(4190.352 -1980.491)"/>
+    </g>
+  </g>
+</svg>

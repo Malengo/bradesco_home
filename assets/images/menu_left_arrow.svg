@@ -1,0 +1,10 @@
+<svg id="Arrow_left" data-name="Arrow left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_4363" data-name="Retângulo 4363" width="24" height="24" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_37" data-name="Grupo de máscara 37" clip-path="url(#clip-path)">
+    <path id="path-1" d="M472.982,1562.361a1.445,1.445,0,0,1,.1-1.982l6.97-6.534-6.97-6.534a1.445,1.445,0,0,1-.1-1.982,1.311,1.311,0,0,1,1.9-.1l8.082,7.576a1.444,1.444,0,0,1,0,2.086l-8.082,7.576a1.309,1.309,0,0,1-1.9-.1Z" transform="translate(490.024 1565.846) rotate(180)"/>
+  </g>
+</svg>

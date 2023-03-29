@@ -1,0 +1,26 @@
+<svg id="Adicionar_ou_excluir_conta" data-name="Adicionar ou excluir conta" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_4363" data-name="Retângulo 4363" width="24" height="24" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_37" data-name="Grupo de máscara 37" clip-path="url(#clip-path)">
+    <g id="Grupo_26472" data-name="Grupo 26472" transform="translate(4569.809 4764.128)">
+      <g id="Grupo_23939" data-name="Grupo 23939" transform="translate(-4566.194 -4760.633)">
+        <g id="Grupo_11136" data-name="Grupo 11136" transform="translate(0 0)">
+          <path id="Stroke_5663" data-name="Stroke 5663" d="M-4562.991-5097.038a3.631,3.631,0,0,0,3.631,3.631,3.631,3.631,0,0,0,3.632-3.631,3.631,3.631,0,0,0-3.632-3.631h0A3.631,3.631,0,0,0-4562.991-5097.038Z" transform="translate(4566.753 5100.669)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <g id="Grupo_23873" data-name="Grupo 23873" transform="translate(0 8.885)">
+            <path id="Caminho_10227" data-name="Caminho 10227" d="M-4582.97-5023.963a7.305,7.305,0,0,0-1.535-.963,6.848,6.848,0,0,0-2.892-.64c-3.868,0-7.046,3.241-7.391,7.38a.694.694,0,0,0,.693.748h10.329" transform="translate(4594.79 5025.565)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Grupo_10618" data-name="Grupo 10618" transform="translate(13.385 10.248)">
+          <g id="Grupo_10617" data-name="Grupo 10617" transform="translate(0 0)">
+            <line id="Linha_51" data-name="Linha 51" y2="3.385" transform="translate(1.693)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <line id="Linha_52" data-name="Linha 52" x2="3.385" transform="translate(0 1.693)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <line id="Linha_53" data-name="Linha 53" x2="3.385" transform="translate(13.3 16.172)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

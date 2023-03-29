@@ -1,0 +1,16 @@
+<svg id="Viva_Prime" data-name="Viva Prime" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_4363" data-name="Retângulo 4363" width="24" height="24" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_37" data-name="Grupo de máscara 37" clip-path="url(#clip-path)">
+    <g id="viva-prime" transform="translate(5.995 8.448)">
+      <path id="Caminho_9631" data-name="Caminho 9631" d="M824.718,1358.144a.488.488,0,0,1,.439.272l1.158,2.343,2.59.379a.489.489,0,0,1,.271.834L827.3,1363.8l.442,2.578a.489.489,0,0,1-.71.516l-2.316-1.213-2.315,1.217a.489.489,0,0,1-.71-.515l.442-2.578-1.873-1.824a.489.489,0,0,1,.271-.834l2.59-.379,1.158-2.343A.489.489,0,0,1,824.718,1358.144Z" transform="translate(-816.608 -1359.009)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Caminho_9632" data-name="Caminho 9632" d="M802.478,1355.475a2.169,2.169,0,0,1,2.231-2.1h18.465a2.168,2.168,0,0,1,2.231,2.1v9.585a2.169,2.169,0,0,1-2.231,2.1H804.709a2.17,2.17,0,0,1-2.231-2.1v-3.049a.489.489,0,0,1,.292-.448,1.35,1.35,0,0,0,0-2.533.49.49,0,0,1-.292-.448Z" transform="translate(-807.958 -1356.669)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Caminho_9634" data-name="Caminho 9634" d="M810.439,1357.507a.833.833,0,0,1,.832-.833h.089a.832.832,0,0,1,.833.833v1.283a.833.833,0,0,1-.833.833h-.089a.833.833,0,0,1-.832-.833h0Z" transform="translate(-811.863 -1358.288)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Caminho_9636" data-name="Caminho 9636" d="M810.433,1372.253a.832.832,0,0,1,.833-.833h.089a.832.832,0,0,1,.833.833h0v1.285a.832.832,0,0,1-.833.832h-.089a.833.833,0,0,1-.833-.832h0Z" transform="translate(-811.86 -1365.109)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Caminho_9638" data-name="Caminho 9638" d="M812.187,1364.434a.777.777,0,0,0-.769-.785h0l-.237,0a.781.781,0,0,0-.744.811l.02,1.355a.779.779,0,0,0,.77.785h0l.236,0a.782.782,0,0,0,.742-.811Z" transform="translate(-811.86 -1361.297)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

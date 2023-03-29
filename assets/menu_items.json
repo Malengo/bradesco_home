@@ -1,0 +1,146 @@
+{ "results": [
+  {
+    "key": "Home",
+    "image": "menu_left_arrow",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Voltar",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "Pix",
+    "image": "menu_pix",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "PIX",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "MessageInbox",
+    "image": "menu_notification",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Minhas Mensagens",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "AccountAccess",
+    "image": "menu_access_account",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Acesso à Conta",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "SecurityKey",
+    "image": "menu_security_key",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Chave de Segurança",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "AtendimentoDigital",
+    "image": "menu_ask_bia",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Pergunte pra BIA",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "DollarCurrency",
+    "image": "menu_dollar_currency",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Cotação do Dólar",
+    "enable": false,
+    "url": "https://economia.uol.com.br/cotacoes/"
+  },
+  {
+    "key": "OpenAccount",
+    "image": "menu_open_account",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Abrir nova Conta",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "DepositCheck",
+    "image": "menu_deposit_check",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Depósito de cheque",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "Divisor",
+    "image": "",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "ATENDIMENTO",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "EasyPhone",
+    "image": "menu_easy_phone",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Ligar para o Fone Fácil",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "ServiceNetwork",
+    "image": "menu_service_network",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Rede de Atendimento",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "UtilsPhone",
+    "image": "menu_customer_service",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Fale Conosco / Ouvidoria",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "VideoConference",
+    "image": "menu_video_conference",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Vídeo Atendimento",
+    "enable": false,
+    "url": null
+  },
+  {
+    "key": "AvaliaApp",
+    "image": "menu_app_rating",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Avalie nosso App",
+    "enable": true,
+    "url": null
+  },
+  {
+    "key": "Adjustments",
+    "image": "menu_settings",
+    "imageURL": null,
+    "campaignID": null,
+    "title": "Sobre o App",
+    "enable": true,
+    "url": null
+  }
+]}
