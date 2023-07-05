@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 // ignore: must_be_immutable
 class FooterItems extends StatelessWidget {
@@ -14,7 +15,14 @@ class FooterItems extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Image.asset(imageName),
+        SvgPicture.asset(
+          '${imageName}',
+          width: 35,
+          colorFilter: const ColorFilter.mode(
+            Colors.white,
+            BlendMode.srcIn,
+          ),
+        ),
         Text(
           title,
           style: TextStyle(
