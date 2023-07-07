@@ -5,13 +5,13 @@ import '../entities/footer_item.dart';
 class FavoriteFooter extends ChangeNotifier {
   List<FooterItem> items = [];
 
-  void add(String imageName, String title) {
-    items.add(FooterItem(title, imageName));
+  void add(FooterItem item) {
+    items.add(item);
     notifyListeners();
   }
 
-  void remove(String imageName, String title) {
-    items?.remove(FooterItem(imageName, title));
+  void remove(FooterItem item) {
+    items.removeWhere((element) => element.title == item.title);
     notifyListeners();
   }
 }

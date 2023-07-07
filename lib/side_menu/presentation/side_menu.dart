@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:bradesco_home/side_menu/presentation/viewmodels/sidemenu_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -5,6 +7,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/injector/get.dart';
+import '../../home/domain/entities/footer_item.dart';
 import '../../home/domain/provider/favorite_footer.dart';
 import '../domain/entities/menu.dart';
 
@@ -18,6 +21,7 @@ class SideMenu extends StatefulWidget {
 class _SideMenuState extends State<SideMenu> {
   final SideMenuViewModel _menuViewModel = get();
   List<Menu> menus = [];
+  List<FooterItem> items = [];
 
   @override
   void initState() {
@@ -50,6 +54,14 @@ class _SideMenuState extends State<SideMenu> {
               itemCount: menus.length,
               itemBuilder: (context, index) {
                 final menu = menus[index];
+                FooterItem item = FooterItem(
+                  menu.title,
+                  menu.image,
+                );
+
+                bool isFavorite =
+                    value.items.any((element) => element.title == menu.title);
+
                 return index == 1 || menu.title == "ATENDIMENTO"
                     ? Column(children: [
                         const Padding(
@@ -83,8 +95,28 @@ class _SideMenuState extends State<SideMenu> {
                                   ),
                                 )
                               : null,
+                          trailing: index == 1
+                              ? isFavorite
+                                  ? const Icon(
+                                      Icons.star,
+                                      color: Colors.red,
+                                      size: 20,
+                                    )
+                                  : const Icon(
+                                      Icons.star_border,
+                                      color: Colors.black,
+                                      size: 20,
+                                      weight: 20,
+                                    )
+                              : null,
                           onTap: () => {
-                            Navigator.of(context).pop(),
+                            setState(() {
+                              isFavorite
+                                  ? value.remove(item)
+                                  : value.items.length >= 3
+                                      ? null
+                                      : value.add(item);
+                            }),
                           },
                         ),
                       ])
@@ -102,9 +134,28 @@ class _SideMenuState extends State<SideMenu> {
                             BlendMode.srcIn,
                           ),
                         ),
+                        trailing: index != 0 || menu.title == "ATENDIMENTO"
+                            ? isFavorite
+                                ? const Icon(
+                                    Icons.star,
+                                    color: Colors.red,
+                                    size: 20,
+                                  )
+                                : const Icon(
+                                    Icons.star_border,
+                                    color: Colors.black,
+                                    size: 20,
+                                    weight: 20,
+                                  )
+                            : null,
                         onTap: () => {
-                          Navigator.of(context).pop(),
-                          value.add(menu.image, menu.title)
+                          setState(() {
+                            isFavorite
+                                ? value.remove(item)
+                                : value.items.length >= 3
+                                    ? null
+                                    : value.add(item);
+                          }),
                         },
                       );
               },

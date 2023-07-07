@@ -19,7 +19,7 @@ class Footer extends StatelessWidget {
                 SizedBox(
                   width: constraints.maxWidth / 3,
                   height: 100,
-                  child: value.items.length == 1
+                  child: value.items.length >= 1
                       ? FooterItems(
                           imageName:
                               'assets/images/${value.items[0].image}.svg',
@@ -41,7 +41,7 @@ class Footer extends StatelessWidget {
                       Radius.circular(9),
                     ),
                   ),
-                  child: value.items.length == 2
+                  child: value.items.length >= 2
                       ? FooterItems(
                           imageName:
                               'assets/images/${value.items[1].image}.svg',
@@ -53,7 +53,7 @@ class Footer extends StatelessWidget {
                 SizedBox(
                   width: constraints.maxWidth / 3,
                   height: 100,
-                  child: value.items.length == 3
+                  child: value.items.length >= 3
                       ? FooterItems(
                           imageName:
                               'assets/images/${value.items[2].image}.svg',

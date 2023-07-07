@@ -1,6 +1,6 @@
 class FooterItem {
-  late final String title;
-  final String image;
+  String title;
+  String image;
 
   FooterItem(this.title, this.image);
 }
