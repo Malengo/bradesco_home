@@ -1,5 +1,7 @@
 import 'dart:math';
 
+import 'package:bradesco_home/side_menu/presentation/components/leading_image_component.dart';
+import 'package:bradesco_home/side_menu/presentation/components/star_favorite_component.dart';
 import 'package:bradesco_home/side_menu/presentation/viewmodels/sidemenu_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -21,7 +23,6 @@ class SideMenu extends StatefulWidget {
 class _SideMenuState extends State<SideMenu> {
   final SideMenuViewModel _menuViewModel = get();
   List<Menu> menus = [];
-  List<FooterItem> items = [];
 
   @override
   void initState() {
@@ -37,6 +38,14 @@ class _SideMenuState extends State<SideMenu> {
           menus.add(element);
         }
       });
+    });
+  }
+
+  void _setFavorite(bool isFavotite, FooterItem item) {
+    setState(() {
+      isFavotite
+          ? Provider.of<FavoriteFooter>(context, listen: false).remove(item)
+          : Provider.of<FavoriteFooter>(context, listen: false).add(item);
     });
   }
 
@@ -86,38 +95,12 @@ class _SideMenuState extends State<SideMenu> {
                                 ),
                           horizontalTitleGap: 10,
                           leading: index == 1
-                              ? SvgPicture.asset(
-                                  'assets/images/${menu.image}.svg',
-                                  width: 35,
-                                  colorFilter: const ColorFilter.mode(
-                                    Colors.red,
-                                    BlendMode.srcIn,
-                                  ),
-                                )
+                              ? LeadingImage(image: menu.image)
                               : null,
                           trailing: index == 1
-                              ? isFavorite
-                                  ? const Icon(
-                                      Icons.star,
-                                      color: Colors.red,
-                                      size: 20,
-                                    )
-                                  : const Icon(
-                                      Icons.star_border,
-                                      color: Colors.black,
-                                      size: 20,
-                                      weight: 20,
-                                    )
+                              ? StarFavorite(isFavorite: isFavorite)
                               : null,
-                          onTap: () => {
-                            setState(() {
-                              isFavorite
-                                  ? value.remove(item)
-                                  : value.items.length >= 3
-                                      ? null
-                                      : value.add(item);
-                            }),
-                          },
+                          onTap: () => {_setFavorite(isFavorite, item)},
                         ),
                       ])
                     : ListTile(
@@ -126,36 +109,14 @@ class _SideMenuState extends State<SideMenu> {
                           style: const TextStyle(fontSize: 15),
                         ),
                         horizontalTitleGap: 10,
-                        leading: SvgPicture.asset(
-                          'assets/images/${menu.image}.svg',
-                          width: 35,
-                          colorFilter: const ColorFilter.mode(
-                            Colors.red,
-                            BlendMode.srcIn,
-                          ),
-                        ),
+                        leading: LeadingImage(image: menu.image),
                         trailing: index != 0 || menu.title == "ATENDIMENTO"
-                            ? isFavorite
-                                ? const Icon(
-                                    Icons.star,
-                                    color: Colors.red,
-                                    size: 20,
-                                  )
-                                : const Icon(
-                                    Icons.star_border,
-                                    color: Colors.black,
-                                    size: 20,
-                                    weight: 20,
-                                  )
+                            ? StarFavorite(isFavorite: isFavorite)
                             : null,
                         onTap: () => {
-                          setState(() {
-                            isFavorite
-                                ? value.remove(item)
-                                : value.items.length >= 3
-                                    ? null
-                                    : value.add(item);
-                          }),
+                          index == 0
+                              ? Navigator.of(context).pop()
+                              : _setFavorite(isFavorite, item)
                         },
                       );
               },
